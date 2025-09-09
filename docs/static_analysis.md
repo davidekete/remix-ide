@@ -359,4 +359,4 @@ function contribute() payable public {
 
 `remix-analyzer` is the library which works underneath the Remix Analysis tool.
 
-`remix-analyzer` is an [NPM package](https://www.npmjs.com/package/@remix-project/remix-analyzer). It can be used as a library in a solution supporting node.js. Find more information about this type of usage in the [remix-analyzer repository](https://github.com/ethereum/remix-project/tree/master/libs/remix-analyzer#how-to-use)
+`remix-analyzer` is an [npm package](https://www.npmjs.com/package/@remix-project/remix-analyzer). It can be used as a library in a solution supporting node.js. Find more information about this type of usage in the [remix-analyzer repository](https://github.com/ethereum/remix-project/tree/master/libs/remix-analyzer#how-to-use)

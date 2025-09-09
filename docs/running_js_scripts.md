@@ -118,7 +118,7 @@ For more script examples, please see [Frequently Asked Scripts](FAS.html).
 
 `require` or `import`statement is supported in a limited manner for Remix supported modules with Remix Scripts.
 
-For now, NPM modules supported by Remix are:
+For now, npm modules supported by Remix are:
 
 - ethers
 - web3

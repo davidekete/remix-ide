@@ -28,7 +28,7 @@ The functions' buttons can have different colors.
 
 - Orange buttons are for `non-payable` functions. Non-payable functions change the state of the contract BUT **do not accept value** (typically ETH) being sent with the transaction. Clicking an orange button will create a transaction and will cost gas.
 
-- Red buttons are for `payable` functions. Clicking a red button will create a new transaction and this transaction can accept a **value** (typically ETH). The amount of value is set in in the **Value** field which is under the Gas Limit field.
+- Red buttons are for `payable` functions. Clicking a red button will create a new transaction and this transaction can accept a **value** (typically ETH). The amount of value is set in the **Value** field which is under the Gas Limit field.
 
 ![](images/a-jvm-calling-instance.png)
 

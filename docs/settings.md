@@ -16,7 +16,7 @@ The Reset button at the top of the Setting panel will reset all of the settings 
 - **Enable code completion in editor** controls code completion. Autocompleting Solidity code happens when you type in the Editor. This option has the Compiler run in the background. For more information about autocomplete, see the [Editor docs](solidity_editor.html#autocomplete).
 - **Display gas estimates in editor** controls if gas estimates are shown. The gas estimates only works when a compilation is successful.
 - **Display errors in editor while typing**
-- **Personal mode** can be used when one is connecting to a **local node**. It is used to have Remix temporarily save the passphrase - so that you don't need to **unlock** the account in GETH. Remix will not persist the passphrase - so if you refresh your browser the passphrase will be gone.
+- **Personal mode** can be used when one is connecting to a **local node**. It is used to have Remix temporarily save the passphrase - so that you don't need to **unlock** the account in Geth. Remix will not persist the passphrase - so if you refresh your browser the passphrase will be gone.
 - **Matomo Analytics** is our "opt-in" analytics platform. The option to turn on Matomo is offered when you first come to Remix. You can disable or enable Matomo here in the Settings panel. We do not collect any personally identifiable information (PII) and our reports are public. See our [blog post on the subject](https://medium.com/remix-ide/help-us-improve-remix-ide-66ef69e14931?source=friends_link&sk=cf9c62fbe1270543eb4bd912e567e2d6).
 - **Save environment state** controls if state of the Remix VM (Remix's simulated blockchain) is saved in a file in the File Explorer. With this option enabled, the Remix VM's state will be saved, so if the browser is closed, the state of the VM will be preserved when you return. This is true as long as the storage in your browser does not get cleared or corrupted.
 
@@ -70,11 +70,11 @@ Without putting in an address & postage stamp, you'll be using the public gatewa
 
 Just like the Swarm settings above, IPFS settings are for publishing your contracts to IPFS from the Solidity Compiler.
 
-- If you do not put in any settings here, you will be using the public INFURA node. This will not guarantee your data will persist.
+- If you do not put in any settings here, you will be using the public Infura node. This will not guarantee your data will persist.
 
 Other options are to:
 
-- Use your own INFURA IPFS node. This requires a subscription. [Learn more](https://infura.io/product/ipfs)
+- Use your own Infura IPFS node. This requires a subscription. [Learn more](https://infura.io/product/ipfs)
 - Use any external IPFS which doesn’t require any authentication.
 - Use your own local ipfs node (which usually runs under http://localhost:5001)
 

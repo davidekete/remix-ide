@@ -51,7 +51,7 @@ When pasting in code, make sure you understand it before deploying or interactin
 ## Compile the Contract
 
 With the contract above as the active tab in the Editor, compile the contract.  
-A quick way to compile is to hit **ctrl + s**. You can also compile by going to the Solidity compiler and clicking the compile button, or by right clicking a file in the File Explorer, or by clicking the play button at the top of the Editor.
+A quick way to compile is to hit **ctrl + s**. You can also compile by going to the Solidity Compiler and clicking the compile button, or by right clicking a file in the File Explorer, or by clicking the play button at the top of the Editor.
 
 **For More Info** see the docs on the [Solidity Compiler](compile.html).
 
@@ -59,11 +59,11 @@ A quick way to compile is to hit **ctrl + s**. You can also compile by going to 
 
 Go to the **Deploy & Run Transactions** plugin.
 
-At the top of this plugin is the Environment select box. Here you can choose where you want to deploy your contract. There are many choices. For more info about these options see [this section](run.html#environment) of the docs.
+At the top of this plugin is the Environment selectbox. Here you can choose where you want to deploy your contract. There are many choices. For more info about these options see [this section](run.html#environment) of the docs.
 
 For a brief synopsis:
 
-**Injected Provider** is used to connect Remix with a Browser Wallet (e.g. Metamask) which is generally for deploying to a public network.
+**Injected Provider** is used to connect Remix with a Browser Wallet (e.g. MetaMask) which is generally for deploying to a public network.
 
 **Remix VM** is a test blockchain in the browser. There are quite a few "flavors" of the Remix VM. Each "flavor" is associated with a different hard fork with the name in parathesies - e.g. Remix VM (Shanghai) or for the choice of a chain to fork into the Remix VM.
 

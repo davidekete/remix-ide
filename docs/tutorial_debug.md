@@ -92,7 +92,7 @@ But before we get to the actual debugging tool, the next section shows how to st
 
 ### Initiate Debugging from the Debugger
 
-Click the bug icon in the icon panel to get to the debugger in the side panel.
+Click the bug icon in the icon panel to get to the debugger in the Side Panel.
 
 If you don't see the bug icon, go to the plugin manager and activate the debugger.
 

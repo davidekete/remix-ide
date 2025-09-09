@@ -26,7 +26,7 @@
 
 `Ctrl+Shift+A` : Opens the Plugin Manager
 
-### Solidity compiler
+### Solidity Compiler
 
 **Q:** Error: compiler might be in a non-sane state
 

@@ -12,13 +12,13 @@ This documentation page will cover **Deploying** and **Accessing**. Interacting 
 
 ![](images/a-deploy-run1.png)
 
-To deploy a contract, you need to have a contract compiled. To check that there is a compiled contract, look in the <b>CONTRACT</b> select box under the VALUE input field.
+To deploy a contract, you need to have a contract compiled. To check that there is a compiled contract, look in the <b>CONTRACT</b> selectbox under the VALUE input field.
 
-If nothing is there, you'll need to compile a contract. If you do not see your desired contract in the CONTRACT select box list, make sure the file with the contract is the active tab in the Editor.
+If nothing is there, you'll need to compile a contract. If you do not see your desired contract in the CONTRACT selectbox list, make sure the file with the contract is the active tab in the Editor.
 
-Once the contract is selected, choose the chain for deployment and/or method for deployment in the **ENVIRONMENT** select box.
+Once the contract is selected, choose the chain for deployment and/or method for deployment in the **ENVIRONMENT** selectbox.
 
-**NOTE:** If you want to connect Remix with a browser wallet (like Metamask) you should use the Injected Provider. Then in the browser wallet, you can select your desired chain when you have input its configuration.
+**NOTE:** If you want to connect Remix with a browser wallet (like MetaMask) you should use the Injected Provider. Then in the browser wallet, you can select your desired chain when you have input its configuration.
 
 For assistance with getting the correct configuration (the RPC server address, etc.), click the plug icon next the word **ENVIRONMENT** to go to chainlist.org.
 
@@ -40,7 +40,7 @@ In collaborative workflows, sharing the state of the Remix VM is a great way to 
 
 ## Environment
 
-- `Injected Provider - provider name`: Connects Remix to an Injected Web3 Provider. The most common injected provider is `Metamask`.
+- `Injected Provider - provider name`: Connects Remix to an Injected Web3 Provider. The most common injected provider is `MetaMask`.
 
 - `Remix VM (Cancun)` : Cancun is the current fork of Ethereum
 
@@ -140,7 +140,7 @@ Only use `--http.corsdomain *` when using a **test chain** AND using only **test
 
 ## Value:
 
-- This sets the amount of ETH, WEI, GWEI, etc. that is sent to a contract or a payable function. <br>
+- This sets the amount of ETH, Wei, Gwei, etc. that is sent to a contract or a payable function. <br>
   **Note:** payable functions have a red button.
 
 The **Value** field is always reset to 0 after each transaction execution. <br>
@@ -150,7 +150,7 @@ The **Value** field is **NOT** for gas.
 
 ## Deploy and AtAddress
 
-- In the image above, the select box is set to **Ballot**. This select box will contain the list of compiled contracts.
+- In the image above, the selectbox is set to **Ballot**. This selectbox will contain the list of compiled contracts.
 
 - `Deploy` sends a transaction that deploys the selected contract. When
   the transaction is mined, the newly created instance will be added
@@ -171,7 +171,7 @@ with extension **\*.abi** and copy the ABI content into it.
 
 Make sure this file is the active tab in the Editor. Then, in the field next to `At Address`, input the contract's address and click on `At Address`. If successful, an instance of the contract will appear below in the list of **Deployed Contracts**.
 
-**Note:** To generate the ABI, in the Solidity compiler after a contract is compiled, click on the **Compilation Details** button. A modal will come up that contains the ABI, among other info.
+**Note:** To generate the ABI, in the Solidity Compiler after a contract is compiled, click on the **Compilation Details** button. A modal will come up that contains the ABI, among other info.
 
 ## Pending Instances
 

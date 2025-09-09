@@ -7,15 +7,15 @@ There are two main reasons for loading external files into Remix:
 
 ## Importing a library or dependency
 
-When importing from NPM, or a URL (like github, an IPFS gateway, or a Swarm gateway) you do not need to do anything more than use the `import` statement in your contract. The dependencies do not need to be "preloaded" into the File Explorer's current Workspace before the contract is compiled.
+When importing from npm, or a URL (like github, an IPFS gateway, or a Swarm gateway) you do not need to do anything more than use the `import` statement in your contract. The dependencies do not need to be "preloaded" into the File Explorer's current Workspace before the contract is compiled.
 
 Files loaded from the import statement are placed in the **Files Explorer's** current Workspace's `.deps` folder.
 
-Under the hood, Remix checks to see if the files are already loaded in the **.deps** directory. If not, it gets them via unpkg if it is an NPM lib.
+Under the hood, Remix checks to see if the files are already loaded in the **.deps** directory. If not, it gets them via unpkg if it is an npm lib.
 
 Here are some example import statements:
 
-### Import from NPM
+### Import from npm
 
 ```Solidity
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
@@ -63,7 +63,7 @@ import "./myLovelyLovelyLib.sol";
 
 ### Importing a file from your computer's filesystem
 
-This method uses **remixd** - the remix daemon. Please go to the [remixd docs](remixd.html) for instructions about how to bridge the divide between the browser and your computer's filesystem.
+This method uses **Remixd** - the remix daemon. Please go to the [Remixd docs](remixd.html) for instructions about how to bridge the divide between the browser and your computer's filesystem.
 
 ### More about the import keyword
 
@@ -72,7 +72,7 @@ For a detailed explanation of the `import` keyword see the
 
 ## Importing files for manipulation
 
-When importing from the home tab widgets or with a remix command in the console, the files are placed in the **root of the current Workspace** inside a folder that shows their source - eg github or gists.
+When importing from the home tab widgets or with a remix command in the console, the files are placed in the **root of the current Workspace** inside a folder that shows their source - eg GitHub or gists.
 
 ### Import buttons on the Remix home tab
 

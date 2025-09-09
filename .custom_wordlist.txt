@@ -47,6 +47,7 @@ http
 Infura
 ipfs
 js
+JS
 Klaytn
 Kovan
 localstorage
@@ -54,11 +55,12 @@ Mainnet
 mainchain
 mainnet
 Matomo
-Metamask
+MetaMask
 multihashes
 Nahmii
 noobies
 npm
+Sindri
 onchain
 param
 Pectra
@@ -87,10 +89,10 @@ Upgradeability
 VM's
 Vyper
 Vyperlang
-Websocket
+WebSocket
 Workspace's
 Xinghuo
 Yul
 zkSNARKs
 zkSync
-Zokrates
+ZoKrates

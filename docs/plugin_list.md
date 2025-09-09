@@ -15,7 +15,7 @@ profile name: **fileManager**
 <br>[Documentation](https://remix-ide.readthedocs.io/en/latest/remixd.html)
 
 **Solidity Compiler** &nbsp; ![](images/pi-sol.png)<br>
-Compiles Solidity & YUL.
+Compiles Solidity & Yul.
 <br>profile name: **solidity**
 <br>[Documentation](compile.html)
 
@@ -117,7 +117,7 @@ Deploy smart contracts using OpenZeppelin Defender directly from Remix IDE.
 <br>[Documentation](https://github.com/klaytn-ozys/plug-and-klay)
 <br>[Make an issue](https://github.com/klaytn-ozys/plug-and-klay/issues)
 
-**Learneth** &nbsp; ![](images/pi-learneth.png) &nbsp; Remix & Solidity Tutorials
+**LearnEth** &nbsp; ![](images/pi-learneth.png) &nbsp; Remix & Solidity Tutorials
 <br>Tutorials that contain quizzes that teach users Solidity and Remix features.
 <br>[Profile name](https://github.com/ethereum/remix-plugins-directory/blob/master/plugins/learneth/profile.json): learnEth
 <br>[Documentation](https://remix-learneth-plugin.readthedocs.io/en/latest/index.html)

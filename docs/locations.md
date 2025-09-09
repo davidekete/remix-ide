@@ -29,7 +29,7 @@ There are many ways to customize Remix IDE by using url parameters. Here are som
 - [Load a GIST](#load-a-gist), [a file via a url](#load-a-file-via-a-url-into-the-editor) or a [base64 encoded string](#load-an-encoded-base64-string-into-a-sol-file-in-the-editor) into Remix's Editor.
 - Specify **the theme** (Dark or Light). [SEE MORE](#specifying-a-theme)
 - Specify which panels should be **minimized** - useful when embedding Remix in your site. [SEE MORE](#minimizing-remix-panels)
-- Select the **version of the Solidity** compiler, enable/disable the **optimizer**, turn on auto compile or choose the language for the Solidity compiler. [SEE MORE](#load-a-specific-version-of-the-solidity-compiler)
+- Select the **version of the Solidity** Compiler, enable/disable the **optimizer**, turn on auto compile or choose the language for the Solidity Compiler. [SEE MORE](#load-a-specific-version-of-the-solidity-compiler)
 - Load **verified contracts from Etherscan** using contract address [SEE MORE](#load-contracts-from-etherscan-via-address)
 
 ### Activating a list of plugins
@@ -38,7 +38,7 @@ The following example contains the url parameter **activate** followed by **a co
 
 The last plugin in the list will gain the focus.
 
-When you use the activate list, all other plugins that a user had loaded will be deactivated. This does not apply to the file explorer, the plugin manager, and the settings modules because these are never deactivated.
+When you use the activate list, all other plugins that a user had loaded will be deactivated. This does not apply to the File Explorer, the plugin manager, and the settings modules because these are never deactivated.
 
 ```text
 https://remix.ethereum.org/?#activate=solidity,solidityUnitTesting,defiexplorer
@@ -64,7 +64,7 @@ The following URL will **close everything except the main panel & the icon panel
 https://remix.ethereum.org/?#embed=true
 ```
 
-To minimize just the side panel, use this URL:
+To minimize just the Side Panel, use this URL:
 
 ```text
 https://remix.ethereum.org/?#minimizesidepanel=true
@@ -88,7 +88,7 @@ To link to Remix with a theme specified use this url:
 
 To link to Remix with the list of plugins activated and with:
 
-- the Learneth gaining the side panel's focus (because it is the last in the list)
+- the LearnEth gaining the Side Panel's focus (because it is the last in the list)
 - the Light theme loaded
 - the terminal minimized
 - optimize off
@@ -193,7 +193,7 @@ https://remix.ethereum.org/?#activate=solidity,fileManager&gist=0fe90e825327ef31
 https://remix.ethereum.org/?#activate=solidity,LearnEth&gist=0fe90e825327ef313c88aedfe66ec142&call=fileManager//open//gist-0fe90e825327ef313c88aedfe66ec142/gridMix4.sol
 ```
 
-## Load a specific version of the Solidity compiler:
+## Load a specific version of the Solidity Compiler:
 
 ```text
 https://remix.ethereum.org/?#version=soljson-v0.6.6+commit.6c089d02
@@ -201,7 +201,7 @@ https://remix.ethereum.org/?#version=soljson-v0.6.6+commit.6c089d02
 
 **Note:** you need to specify both the Solidity version and the commit.
 
-## Load a custom Solidity compiler:
+## Load a custom Solidity Compiler:
 
 ```text
 https://remix.ethereum.org/#version=https://solidity-blog.s3.eu-central-1.amazonaws.com/data/08preview/soljson.js
@@ -215,7 +215,7 @@ https://remix.ethereum.org/#autoCompile=true
 
 ## Select the language for the Solidity Compiler
 
-Choose YUL or Solidity with the language parameter.
+Choose Yul or Solidity with the language parameter.
 
 ```text
 https://remix.ethereum.org/#language=Yul

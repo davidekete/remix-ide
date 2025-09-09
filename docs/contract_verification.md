@@ -14,7 +14,7 @@ This is the home view of the plugin where you can verify your contracts.
 
 ![](images/a-cv-verify-page.png)
 
-You can select which verification services you want to use. By default, all that have a valid configuration are selected. On Ethereum Mainnet, this will be all but Etherscan. In order to enable Etherscan, you need to input an API key in the Settings page.
+You can select which verification services you want to use. By default, all that have a valid configuration are selected. On Ethereum mainnet, this will be all but Etherscan. In order to enable Etherscan, you need to input an API key in the Settings page.
 
 ### The prerequisites for verification are:
 

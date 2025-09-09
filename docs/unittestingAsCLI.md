@@ -2,17 +2,17 @@
 
 ## remix-tests [![](https://badge.fury.io/js/%40remix-project%2Fremix-tests.svg)](https://www.npmjs.com/package/@remix-project/remix-tests)
 
-`remix-tests` is a tool which can be used as a CLI (Command Line Interface) solution to run the solidity unit tests. This is the same tool which works as a library underneath Remix's `Solidity Unit Testing` plugin. It is available on NPM as `@remix-project/remix-tests`.
+`remix-tests` is a tool which can be used as a CLI (Command Line Interface) solution to run the solidity unit tests. This is the same tool which works as a library underneath Remix's `Solidity Unit Testing` plugin. It is available on npm as `@remix-project/remix-tests`.
 
 ## Get started
 
-You can install it using NPM:
+You can install it using npm:
 
 - As a dev dependency:
 
 `npm install --save-dev @remix-project/remix-tests`
 
-- As a global NPM module:
+- As a global npm module:
 
 `npm install -g @remix-project/remix-tests`
 
@@ -23,7 +23,7 @@ $ remix-tests version
 0.1.36
 ```
 
-Version should be same as on NPM.
+Version should be same as on npm.
 
 ## How to use
 

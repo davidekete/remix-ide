@@ -6,15 +6,15 @@ _(Supported since Remix IDE v0.23.0 and Remixd v0.6.0)_
 
 **Note:** If you have not used `remixd` before, read more about it [here](./remixd.html)
 
-If `remixd` is running locally on your device and shared folder is a **Truffle project**, an additional websocket plugin will be listening on port `65524`. According to its documentation,
+If `remixd` is running locally on your device and shared folder is a **Truffle project**, an additional WebSocket plugin will be listening on port `65524`. According to its documentation,
 
 > _Truffle projects are projects with a truffle-config.js file._
 
-Remixd looks for the `truffle-config.js` file in shared folder. If found, the Truffle websocket listener will run.
+Remixd looks for the `truffle-config.js` file in shared folder. If found, the Truffle WebSocket listener will run.
 
-The Truffle websocket listener is a websocket plugin similar to `remixd` and is used to perform Truffle specific actions with Remix IDE.
+The Truffle WebSocket listener is a WebSocket plugin similar to `remixd` and is used to perform Truffle specific actions with Remix IDE.
 
-It doesn't need any separate installation as it is shipped with [remixd NPM](https://www.npmjs.com/package/@remix-project/remixd) module.
+It doesn't need any separate installation as it is shipped with [remixd npm](https://www.npmjs.com/package/@remix-project/remixd) module.
 
 ![](images/a-truffle-remixd.png)
 
@@ -26,11 +26,11 @@ To use Truffle compilation with Remix IDE efficiently:
 
 1. **Truffle** should be installed locally on the system [https://trufflesuite.com/docs/truffle/getting-started/installation/](https://trufflesuite.com/docs/truffle/getting-started/installation/)
 2. Shared folder should be a Truffle project containing `truffle-config.js`
-3. `Remixd` Truffle websocket listener should be running at `65524`
+3. `Remixd` Truffle WebSocket listener should be running at `65524`
 
 ### How to use
 
-If a truffle project is shared through remixd and `localhost` workspace is loaded in Remix IDE, there will be an extra checkbox shown in `Solidity Compiler` plugin with the label `Enable Truffle Compilation`.
+If a truffle project is shared through Remixd and `localhost` workspace is loaded in Remix IDE, there will be an extra checkbox shown in `Solidity Compiler` plugin with the label `Enable Truffle Compilation`.
 
 ![](images/a-truffle-compilation.png)
 
@@ -44,7 +44,7 @@ The result of the compilation will be shown in the Remix IDE terminal
 
 ![](images/a-truffle-compilation-success.png)
 
-and also in the **remixd** terminal.
+and also in the **Remixd** terminal.
 
 ## Ganache Provider
 

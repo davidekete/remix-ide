@@ -62,7 +62,7 @@ For example:
 
 ## Compilers: Explain Error
 
-In the compiler error "cards" of both the Solidity compiler and the Vyper compiler there is a button to "Ask RemixAI".
+In the compiler error "cards" of both the Solidity Compiler and the Vyper compiler there is a button to "Ask RemixAI".
 
 ![](images/a-ai-solcomp1.png)
 
