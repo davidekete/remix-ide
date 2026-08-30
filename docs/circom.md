@@ -149,3 +149,13 @@ Before you can verify this way, you need to add a zkVerify API key. Open the Set
 ```{important}
 Proofs submitted to zkVerify must use the **Groth16** proving scheme. If you generated your keys with the Plonk setup script in Step 2, those proofs cannot be verified this way.
 ```
+
+With the key saved, go to the **Generate Proof** section of the Circom plugin panel and click **Verify on zkVerify**. This replaces the script-based route described above, so you do not need to run `scripts/groth16/run_verification.ts` to verify this way.
+
+![Verify on zkVerify button in the Circom plugin panel](images/circom/verify-with-zkverify.png)
+
+The progress and result appear in the Remix terminal. A successful verification looks like this:
+
+![zkVerify verification output in the Remix terminal](images/circom/zkverify-success.png)
+
+The status moves from `Submitted`, once the proof reaches the network, through `IncludedInBlock` while it is being processed, to `Finalized` when the result is settled. The **Job ID** identifies this verification on zkVerify. Once it succeeds, the button turns green and reads **Verified on zkVerify**, with the same Job ID shown beneath it.
