@@ -995,6 +995,61 @@ span.fa.fa-book {
   display: none !important;
 }
 
+/* Map sphinx-design's palette onto the Remix theme tokens, so its cards and
+   buttons follow light/dark/black mode like the rest of the docs. */
+:root {
+  --sd-color-primary: var(--color-primary);
+  --sd-color-primary-highlight: var(--color-hover);
+  --sd-color-primary-text: #ffffff;
+  --sd-color-card-background: var(--color-background);
+  --sd-color-card-border: var(--color-primary-transparent);
+  --sd-color-card-footer: var(--color-code-background);
+  --sd-color-card-text: var(--color-body);
+  --sd-color-shadow: var(--color-primary-transparent);
+}
+
+/* The RTD theme sets a global `p { margin: 0 0 24px }`, which leaves a large
+   dead gap under the single line of body copy in a compact card. */
+.sd-card .sd-card-text {
+  margin-bottom: 0;
+}
+
+/* Start-here cards on the landing page.
+   The card is contained by its surface fill rather than by a hairline border,
+   so the button inside it stays the strongest element in the box. */
+.remix-start-card {
+  background-color: var(--color-code-background);
+  border: none !important;
+  border-radius: 0.75rem;
+  box-shadow: none !important;
+}
+
+.remix-start-card .sd-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 1.25rem;
+}
+
+.remix-start-card .sd-card-title {
+  font-size: var(--size-body-big);
+  margin-bottom: 0;
+}
+
+.remix-start-card .sd-card-text {
+  color: var(--color-body-light);
+}
+
+/* Push the button to the bottom so both cards align regardless of copy length */
+.remix-start-card .sd-card-body > p {
+  margin-bottom: 0;
+}
+
+.remix-start-card .sd-card-body > p:last-child {
+  margin-top: auto;
+}
+
 /* 1) Keep images small and inside the card */
 .plugin-card .sd-card-img-top {
   max-height: 96px; /* try 80–120px to taste */
