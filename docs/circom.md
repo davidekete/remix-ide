@@ -135,3 +135,17 @@ The result appears in the Remix terminal. A successful verification prints:
 WITNESS IS CORRECT
 WITNESS CHECKING FINISHED SUCCESSFULLY
 ```
+
+## Verifying a Circom Circuit with zkVerify
+
+The verification covered so far happens in one of two places: off-chain in the browser using `verification_key.json`, or on-chain by deploying `zk_verifier.sol` and calling it from your own contract. On-chain verification is the expensive one. Validating a Groth16 proof requires elliptic curve pairing operations, and running those inside the EVM costs gas every time your contract verifies a proof.
+
+zkVerify is a third option. Instead of verifying the proof inside your own contract, you submit it to zkVerify, a network built specifically for proof verification. Because that is the one job the network is designed for, it verifies proofs faster and more cheaply than doing the same work on-chain from your contract. The Circom plugin can submit proofs to zkVerify directly, so this route is available without leaving Remix.
+
+Before you can verify this way, you need to add a zkVerify API key. Open the Settings panel, go to **Connected Services**, and find the **zkVerify (Kurier)** section. Enter your key there, choose the network you want to verify against, and click **Save**. You can get a key from the [Kurier portal](https://testnet.kurier.xyz/).
+
+![zkVerify Kurier settings in the Connected Services panel](images/circom/add-zkverify-key.png)
+
+```{important}
+Proofs submitted to zkVerify must use the **Groth16** proving scheme. If you generated your keys with the Plonk setup script in Step 2, those proofs cannot be verified this way.
+```
