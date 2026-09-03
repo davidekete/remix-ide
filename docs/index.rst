@@ -9,9 +9,31 @@ Welcome to Remix's documentation!
 It requires no setup, fosters a fast development cycle, and has a rich set of plugins with intuitive GUIs.  
 The IDE comes in two flavors (web app or desktop app).
 
-**Remix Desktop**, see: `Download page <https://github.com/remix-project-org/remix-desktop/releases>`__
+.. grid:: 2
+   :gutter: 3
 
-**Remix Online IDE**, see: `https://remix.ethereum.org <https://remix.ethereum.org>`__
+   .. grid-item-card:: Remix Online IDE
+      :columns: 12 12 6 6
+      :class-card: remix-start-card
+
+      Run Remix in your browser. No setup required.
+
+      .. button-link:: https://remix.ethereum.org
+         :color: primary
+
+         Launch Remix
+
+   .. grid-item-card:: Remix Desktop
+      :columns: 12 12 6 6
+      :class-card: remix-start-card
+
+      Download the desktop app for macOS, Windows or Linux.
+
+      .. button-link:: https://remix.live/desktop
+         :color: primary
+         :outline:
+
+         Download
 
 **Supported browsers:** **Firefox**, **Chrome**, **Brave**. 
 
@@ -30,7 +52,7 @@ Additional information can be found on our `Substack blog <https://ethereumremix
 Useful Links
 ------------
 
-- `Remix Desktop <https://github.com/remix-project-org/remix-desktop/releases>`__ - Remix Desktop's release page. 
+- `Remix Desktop <https://remix.live/desktop>`__ - Remix Desktop's download page. 
 
 - `Remix on Github <https://github.com/remix-project-org/remix-project>`__
 

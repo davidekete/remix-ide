@@ -15,7 +15,7 @@ myst:
 
 - GitHub repository: [https://github.com/remix-project-org](https://github.com/remix-project-org). The README contains instructions for running Remix-IDE locally.
 
-- Remix Desktop is an Electron App. Here is the [release page](https://github.com/remix-project-org/remix-desktop/releases).
+- Remix Desktop is an Electron App. Here is the [download page](https://remix.live/desktop).
 
 - The Remix X account is [EthereumRemix](https://x.com/EthereumRemix).
 
